@@ -199,7 +199,7 @@
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="form-group">
-                                                    <select>
+                                                    <select id="service">
                                                         <option value="1">Chose Subject</option>
                                                         <option value="2">Computer Engineering</option>
                                                         <option value="4">Accounting Technologies</option>
@@ -230,9 +230,10 @@
                                             To : 'thennture@gmail.com , burakcanoztruk@gmail.com , uniquecleaningseattle@gmail.com',
                                             From : 'thennture@gmail.com',
                                             Subject : document.getElementById("name").value,
-                                            Body : "Name:"+document.getElementById("name").value +
-                                            "E-Mail:"+document.getElementById("email").value +
-                                            "Phone:"+document.getElementById("phone").value,
+                                            Body : "Name:"+document.getElementById("name").value +" "+
+                                            "E-Mail:"+document.getElementById("email").value +" "+
+                                            "Phone:"+document.getElementById("phone").value +" "+
+                                            "Service:"+document.getElementById("service").value,
                                             
                                             }).then(
                                             message => alert(message)
