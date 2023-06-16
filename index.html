@@ -163,79 +163,10 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="appinment-forms">
-                                    <h2>Free Estimate</h2>
-                                    <p>
-                                        Get a quick response within 24 hours
-                                    </p>
-                                    <form class="contact-form" onsubmit="sendEmail(); reset(); return false;">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text">
-                                                    <span class="alert-error"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
-                                                    <span class="alert-error"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
-                                                    <span class="alert-error"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <select id="service">
-                                                        <option value="1">Chose Subject</option>
-                                                        <option value="2">Computer Engineering</option>
-                                                        <option value="4">Accounting Technologies</option>
-                                                        <option value="5">Web Development</option>
-                                                        <option value="6">Machine Language</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <button class="btn-animation dark border" type="submit" name="submit" id="submit">
-                                                    <span>Get Estimate <i class="fas fa-angle-right"></i></span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <!-- Alert Message -->
-                                        <div class="col-lg-12 alert-notification">
-                                            <div id="message" class="alert-msg"></div>
-                                        </div>
-                                    </form>
-                                    <script src="https://smtpjs.com/v3/smtp.js">
-                                    </script>
-                                    <script>
-                                    function sendEmail(){
-                                        Email.send({
-                                            SecureToken : "4fef7dbc-c92f-44b8-b3b1-cd95311b8aaa",
-                                            To : 'thennture@gmail.com , burakcanoztruk@gmail.com , uniquecleaningseattle@gmail.com',
-                                            From : 'thennture@gmail.com',
-                                            Subject : document.getElementById("name").value,
-                                            Body : "Name:"+document.getElementById("name").value +" "+
-                                            "E-Mail:"+document.getElementById("email").value +" "+
-                                            "Phone:"+document.getElementById("phone").value +" "+
-                                            "Service:"+document.getElementById("service").value,
-                                            
-                                            }).then(
-                                            message => alert(message)
-                                            );
-                                    }
-                                    </script>
+                                    <h2>Call For Estimate</h2>
+                                   
+                                       <a href="tel:12066358563">  <h2>+1 (206) 635-8563 </h2></a>
+                                   
                                     
                                 </div>
                             </div>
@@ -255,279 +186,182 @@
     <!-- Star Services
     ============================================= -->
 
-    <div id="services" class="services-style-three-area relative text-center default-padding">
+    <div id="services" class="features-area default-padding bottom-less">
         <div class="container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="site-heading text-center">
-                            <h4>OUR SERVICES</h4>
-                            <h2>The best team to <br> clean your surrounding area.</h2>
-                        </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4>OUR SERVICES</h4>
+                        <h2>Experience Unparalleled Cleanliness <br> With Our Comprehensive Services.</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <!-- Signle Item -->
-                <div class="services-style-three col-lg-4 col-md-6">
-                    <div class="style-three-item item">
-                        <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                        <h4><a class="smooth-menu" href="#contact">Residential Cleaning</a></h4>
-                        <p>
-                            At Unique Service, we understand how important your home is to you. That's why we focus on the quality of the clean. Our cleaners care about our home as much as you do. Get a high quality cleaning experience from our dedicated cleaners!
-                        </p>
+        </div>
+        <div class="container">
+            <div class="features-items">
+                <div class="row">
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>Residential Cleaning</a></h4>
+                            </div>
+                            <p>
+                                At Unique Service, we understand how important your home is to you. That's why we focus on the quality of the clean. Our cleaners care about our home as much as you do. Get a high quality cleaning experience from our dedicated cleaners!
+                            </p>
+                        </div>
                     </div>
-                </div>                
-                <!-- End Signle Item -->
-                <!-- Signle Item -->
-                <div class="services-style-three col-lg-4 col-md-6">
-                    <div class="style-three-item item">
-                        <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                        <h4><a class="smooth-menu" href="#contact">Commercial Cleaning</a></h4>
-                        <p>
-                            Unique Service specializes in commercial cleaning tailored to your facility's unique needs. We provide top quality services to improve the cleanliness, safety, and appeal of your commercial spaces. Let us help your business shine and impress your clients and employees.
-                        </p>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>Commercial Cleaning</a></h4>
+                            </div>
+                            <p>
+                                Unique Service specializes in commercial cleaning tailored to your facility's unique needs. We provide top quality services to improve the cleanliness, safety, and appeal of your commercial spaces. Let us help your business shine and impress your clients and employees.
+                            </p>
+                        </div>
                     </div>
-                </div>                
-                <!-- End Signle Item -->
-                <!-- Signle Item -->
-                <div class="services-style-three col-lg-4 col-md-6">
-                    <div class="style-three-item item">
-                        <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                        <h4><a class="smooth-menu" href="#contact">Carpet Cleaning (Soon)</a></h4>
-                        <p>
-                            We are excited to announce that soon we will be offering Carpet Cleaning services at Unique Service! Our team will utilize state-of-the-art equipment and eco-friendly solutions to bring the life back into your carpets. Stay tuned for this addition to our range of high-quality cleaning services.
-                        </p>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>Carpet Cleaning (Soon)</a></h4>
+                            </div>
+                            <p>
+                                We are excited to announce that soon we will be offering Carpet Cleaning services at Unique Service! Our team will utilize state-of-the-art equipment and eco-friendly solutions to bring the life back into your carpets. Stay tuned for this addition to our range of high-quality cleaning services.
+                            </p>
+                        </div>
                     </div>
-                </div>                
-                <!-- End Signle Item -->
-                <!-- Signle Item -->
-                <div class="services-style-three col-lg-4 col-md-6">
-                    <div class="style-three-item item">
-                        <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                        <h4><a class="smooth-menu" href="#contact">Furniture Cleaning</a></h4>
-                        <p>
-                            Our Furniture Cleaning service at Unique Service ensures your furniture is handled with care and left looking and smelling fresh. We use safe and effective cleaning products that are tough on stains but gentle on your furniture. Revitalize your living spaces with our professional furniture cleaning services.
-                        </p>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>Furniture Cleaning</a></h4>
+                            </div>
+                            <p>
+                                Our Furniture Cleaning service at Unique Service ensures your furniture is handled with care and left looking and smelling fresh. We use safe and effective cleaning products that are tough on stains but gentle on your furniture. Revitalize your living spaces with our professional furniture cleaning services.
+                            </p>
+                        </div>
                     </div>
-                </div>                
-                <!-- End Signle Item -->
-                <!-- Signle Item -->
-                <div class="services-style-three col-lg-4 col-md-6">
-                    <div class="style-three-item item">
-                        <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                        <h4><a class="smooth-menu" href="#contact">Move In & Move Out Cleaning</a></h4>
-                        <p>
-                            Moving can be stressful, but the cleaning doesn't have to be. At Unique Service, we offer comprehensive Move In & Move Out Cleaning services to ease the transition. Our team is dedicated to making your new home shine or leaving your old one spotless for the next resident. Let us handle the cleaning so you can focus on your move.
-                        </p>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>Move In & Move Out Cleaning</a></h4>
+                            </div>
+                            <p>
+                                Moving can be stressful, but the cleaning doesn't have to be. At Unique Service, we offer comprehensive Move In & Move Out Cleaning services to ease the transition. Our team is dedicated to making your new home shine or leaving your old one spotless for the next resident. Let us handle the cleaning so you can focus on your move.
+                            </p>
+                        </div>
                     </div>
-                </div>                
-                <!-- End Signle Item -->
-                <!-- Signle Item -->
-                <div class="services-style-three col-lg-4 col-md-6">
-                    <div class="style-three-item item">
-                        <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                        <h4><a class="smooth-menu" href="#contact">Kitchen Cleaning</a></h4>
-                        <p>
-                            At Unique Service, we understand that the kitchen is the heart of your home or business. Our Kitchen Cleaning service is designed to handle every aspect of your kitchen's cleanliness, from scrubbing and sanitizing countertops to deep cleaning of ovens and refrigerators. Trust us to keep your kitchen sparkling clean and hygienic.
-                        </p>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>Kitchen Cleaning</a></h4>
+                            </div>
+                            <p>
+                                At Unique Service, we understand that the kitchen is the heart of your home or business. Our Kitchen Cleaning service is designed to handle every aspect of your kitchen's cleanliness, from scrubbing and sanitizing countertops to deep cleaning of ovens and refrigerators. Trust us to keep your kitchen sparkling clean and hygienic.
+                            </p>
+                        </div>
                     </div>
-                </div>                
-                <!-- End Signle Item -->
-                            <!-- Signle Item -->
-                            <div class="services-style-three col-lg-4 col-md-6">
-                                <div class="style-three-item item">
-                                    <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                                    <h4><a class="smooth-menu" href="#contact">Car Deep Detail Cleaning</a></h4>
-                                    <p>
-                                        Our Car Deep Detail Cleaning service at Unique Service is perfect for maintaining the look and feel of your vehicle. We use the best products and techniques to clean every nook and cranny of your car, both inside and out. From upholstery and carpet cleaning to polishing and waxing the exterior, we will leave your car looking as good as new.
-                                    </p>
-                                </div>
-                            </div>                            
-                            <!-- End Signle Item -->
-
-                                <!-- Signle Item -->
-                                <div class="services-style-three col-lg-4 col-md-6">
-                                    <div class="style-three-item item">
-                                        <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                                        <h4><a class="smooth-menu" href="#contact">RV Cleaning</a></h4>
-                                        <p>
-                                            Whether you're a full-time RVer or use your vehicle for occasional trips, keeping it clean can be a challenge. Our RV Cleaning service at Unique Service is designed to keep your home on wheels sparkling clean. We take care of both the interior and exterior, ensuring your RV is fresh, hygienic, and ready for the next adventure.
-                                        </p>
-                                    </div>
-                                </div>                                
-                                <!-- End Signle Item -->
-
-                                        <!-- Signle Item -->
-                                        <div class="services-style-three col-lg-4 col-md-6">
-                                            <div class="style-three-item item">
-                                                <div class="shape" style="background-image: url(assets/img/shape/21.png);"></div>
-                                                <h4><a class="smooth-menu" href="#contact">TIR Cabin Cleaning</a></h4>
-                                                <p>
-                                                    TIR drivers spend a lot of time in their cabins, which can quickly become cluttered and dirty. At Unique Service, we offer a thorough TIR Cabin Cleaning service to make these spaces clean and comfortable. We clean all surfaces, remove trash, and vacuum and sanitize the cabin to provide a fresh and tidy environment for drivers.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        
-                <!-- End Signle Item -->
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>Car Deep Detail Cleaning</a></h4>
+                            </div>
+                            <p>
+                                Our Car Deep Detail Cleaning service at Unique Service is perfect for maintaining the look and feel of your vehicle. We use the best products and techniques to clean every nook and cranny of your car, both inside and out. From upholstery and carpet cleaning to polishing and waxing the exterior, we will leave your car looking as good as new.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>RV Cleaning</a></h4>
+                            </div>
+                            <p>
+                                Whether you're a full-time RVer or use your vehicle for occasional trips, keeping it clean can be a challenge. Our RV Cleaning service at Unique Service is designed to keep your home on wheels sparkling clean. We take care of both the interior and exterior, ensuring your RV is fresh, hygienic, and ready for the next adventure.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="feature-style-three col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="top">
+                                <h4><a>TIR Cabin Cleaning</a></h4>
+                            </div>
+                            <p>
+                                TIR drivers spend a lot of time in their cabins, which can quickly become cluttered and dirty. At Unique Service, we offer a thorough TIR Cabin Cleaning service to make these spaces clean and comfortable. We clean all surfaces, remove trash, and vacuum and sanitize the cabin to provide a fresh and tidy environment for drivers.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                </div>
             </div>
         </div>
-        <div class="shape-bottom" style="background-image: url(assets/img/shape/33.png);"></div>
     </div>
     <!-- End Services Area -->
 
     <!-- Start About
     ============================================= -->
-    <div id="about" class="about-style-two-area bg-gray default-padding">
+    <div id="about" class="about-us-area overflow-hidden default-padding">
         <div class="container">
-            <div class="row align-center">
-                <div class="col-lg-6 about-style-two">
-                    <div class="thumb">
-                        <img src="assets/img/800x800.png" alt="Thumb">
-                        <img src="assets/img/800x800.png" alt="Thumb">
-                        <div class="fun-fact">
-                            <div class="counter">
-                                <div class="timer" data-to="50" data-speed="5000">50</div>
-                                <div class="operator">+</div>
-                            </div>
-                            <span class="medium">Team Member</span>
+            <div class="about-items">
+                <!-- Shape -->
+                <div class="shape">
+                    <img src="assets/img/shape/8.png" alt="Shape">
+                </div>
+                <!-- End Shape -->
+                <div class="row align-center">
+                    <div class="col-lg-6">
+                        <div class="thumb">
+                            <img src="assets/img/about.png" alt="Thumb">
+                            <img src="assets/img/about2.png" alt="Thumb">
+                            <div class="experience">
+                                <h2>26</h2>
+                                <h4>Years Experiences</h4>
+                           </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 about-style-three">
-                    <h4 class="sub-heading">About Cleaning Agency </h4>
-                    <h2 class="heading">We are committed to give <br> our best services</h2>
-                    <p>
-                        Friendly bachelor entrance to on by. Extremity as if breakfast agreement. Off now mistress provided out horrible opinions. Prevailed mr tolerably discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting projection.
-                    </p>
-                    <ul>
-                        <li>Service Monitoring</li>
-                        <li>Fast Communication</li>
-                        <li>Customer Support Live Chat</li>
-                        <li>Information for Any Services</li>
-                    </ul>
-                    <a class="btn btn-theme primary effect btn-md" href="#">Contact Us</a>
+                    <div class="col-lg-6 info">
+                        <h2>We are committed to providing <br> unparalleled cleaning services</h2>
+                        <blockquote>
+                            Our local operations team is on-call 24 hours a day, ready to serve at a moment's notice.
+                        </blockquote>
+                        <p>
+                            At Unique Service, we pride ourselves on our dedication to quality and customer satisfaction. Our professional team is experienced in all aspects of cleaning, ensuring that your space is meticulously cleaned to the highest standards. We understand the importance of a clean environment, and we're committed to providing services that exceed expectations.
+                        </p>
+                        <div class="bottom-info">
+                            <div class="button">
+                                <a data-animation="animated zoomInUp"  class="smooth-menu" href="#contact">Contact Us</a>
+                            </div>
+                            <div class="contact">
+                                <div class="content">
+                                    <span>Call For Estimate</span>
+                                    <h5>+1 (206) 635-8563</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </div>
     </div>
     <!-- End About -->
 
-    <!-- Start Team 
-    ============================================= -->
-    <div id="team" class="team-area default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h4>awesome team</h4>
-                        <h2>The best team to <br> clean your surrounding area.</h2>
-                        <div class="devider"></div>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id tenetur temporibus, distinctio iste recusandae magni provident nam fuga perferendis molestiae et hic non expedita eos velit maxime libero quos? Et.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="team-style-one-box">
-                <div class="row">
-                    <!-- Single Item -->
-                    <div class="col-lg-4 col-md-6 text-center team-style-one">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x900.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle" class="share-toggle" hidden>
-                                    <label for="toggle" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4><a href="team-single.html">Anna Green</a></h4>
-                                <p>
-                                    Carpet Cleaner
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-lg-4 col-md-6 text-center team-style-one">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x900.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle2" class="share-toggle" hidden>
-                                    <label for="toggle2" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4><a href="team-single.html">Liana Rob</a></h4>
-                                <p>
-                                    Office Cleaner
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="col-lg-4 col-md-6 text-center team-style-one">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x900.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle3" class="share-toggle" hidden>
-                                    <label for="toggle3" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4><a href="team-single.html">Thomas Pual</a></h4>
-                                <p>
-                                    Cleaning Manager
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Team-->
+    
 
     <!-- Start Fa   
     ============================================= -->
@@ -603,87 +437,11 @@
     <!-- End Faq -->
 
 
-    <!-- Start Pricing Area 
-    ============================================= -->
-    <div id="pricing" class="pricing-area shadow default-padding-top bottom-less">
-        <!-- Fixed Shape -->
-        <div class="fixed-sahpe-bottom">
-            <img src="assets/img/shape/19.png" alt="Shape">
-        </div>
-        <!-- End Fixed Shape -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h4>Cleaning Plans</h4>
-                        <h2>Take a look of our Pricing and <br> select Your Choice</h2>
-                        <div class="devider"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="pricing pricing-simple">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 pricing-style-two">
-                        <div class="pricing-item">
-                            <i class="flaticon-cleaning-6"></i>
-                            <div class="pricing-header">
-                                <h4>Residential</h4>
-                            </div>
-                            <div class="price">
-                                <h2><sup>$</sup>20</h2>
-                                <p>
-                                    For Homes
-                                </p>
-                            </div>
-                            <ul>
-                                <li><i class="fas fa-check-circle"></i> Profetional Cleaner</li>
-                                <li><i class="fas fa-check-circle"></i> 2 Bedrroms Cleaning</li>
-                                <li><i class="fas fa-check-circle"></i> Kitchen Cleaning</li>
-                                <li><i class="fas fa-check-circle"></i> 2 Bathroom Cleaning</li>
-                                <li><i class="fas fa-check-circle"></i> Roof Cleaning </li>
-                                <li><i class="fas fa-check-circle"></i> Post construction </li>
-                            </ul>
-                            <div class="button">
-                                <a class="btn btn-dark effect btn-sm" href="https://nextdoor.com/pages/unique-service-llc-bellevue-wa/?init_source=org_pages">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 pricing-style-two">
-                        <div class="pricing-item active">
-                            <i class="flaticon-skyline"></i>
-                            <div class="pricing-header">
-                                <h4>Commercial</h4>
-                            </div>
-                            <div class="price">
-                                <h2><sup>$</sup>36</h2>
-                                <p>
-                                    For Business
-                                </p>
-                            </div>
-                            <ul>
-                                <li><i class="fas fa-check-circle"></i> Profetional Cleaner</li>
-                                <li><i class="fas fa-check-circle"></i> Windows Cleaning </li>
-                                <li><i class="fas fa-check-circle"></i> Kitchen Cleaning</li>
-                                <li><i class="fas fa-check-circle"></i> 2 Bathroom Cleaning</i></li>
-                                <li><i class="fas fa-check-circle"></i> Roof Cleaning </li>
-                                <li><i class="fas fa-check-circle"></i> Government facilities</i></li>
-                            </ul>
-                            <div class="button">
-                                <a class="btn btn-theme secondary effect btn-sm" href="https://nextdoor.com/pages/unique-service-llc-bellevue-wa/?init_source=org_pages">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Pricing Area -->
+    
 
     <!-- Start Project Area
     ============================================= -->
-    <div id="project" class="project-area overflow-hidden default-padding">
+    <div class="projects-area default-padding-top">
         <div class="container">
             <div class="heading-left">
                 <div class="row">
@@ -701,76 +459,203 @@
                 </div>
             </div>
         </div>
+        <div class="container-fill">
+            <div class="project-items project-carousel owl-carousel owl-theme">
+                <!-- Single Item -->
+                <div class="project-style-one">
+                    <img src="assets/img/2440x1578.png" alt="Thumb">
+                    <div class="info">
+                        <h4><a href="project-details.html">Door Cleaning</a></h4>
+                        <span>House, Office</span>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="project-style-one">
+                    <img src="assets/img/2440x1578.png" alt="Thumb">
+                    <div class="info">
+                        <h4><a href="project-details.html">Garden Cleaning</a></h4>
+                        <span>Apartment</span>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="project-style-one">
+                    <img src="assets/img/2440x1578.png" alt="Thumb">
+                    <div class="info">
+                        <h4><a href="project-details.html">Bedroom Cleaning</a></h4>
+                        <span>Residential, Office</span>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="project-style-one">
+                    <img src="assets/img/2440x1578.png" alt="Thumb">
+                    <div class="info">
+                        <h4><a href="project-details.html">House Cleaning</a></h4>
+                        <span>Home, Apartment</span>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="project-style-one">
+                    <img src="assets/img/2440x1578.png" alt="Thumb">
+                    <div class="info">
+                        <h4><a href="project-details.html">Furniture Cleaning</a></h4>
+                        <span>Office, House</span>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+    </div>
+</br>
+</br>
+</br>
+</br>
+    <!-- End Projects Area -->
+
+    <!-- Testimonials-->
+    <div class="testimonials-area carousel-shadow relative half-bg">
         <div class="container">
-            <div class="project-items-area">
-                <div class="masonary">
-                    <div id="portfolio-grid" class="gallery-items colums-3">
-                        <!-- Single Item -->
-                        <div class="pf-item">
-                            <div class="project-style-two">
-                                <img src="assets/img/600x1100.png" alt="Thumb">
-                                <div class="info">
-                                    <span>House, Office</span>
-                                    <h4><a href="#">Door Cleaning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-
-                        <!-- Single Item -->
-                        <div class="pf-item">
-                            <div class="project-style-two">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4>Testimonials</h4>
+                        <h2>What’s Client’s Say About Us</h2>
+                        <div class="devider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="testimonial-items">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="testimonial-carousel owl-carousel owl-theme">
+                            <!-- Signle Item -->
+                            <div class="item">
                                 <img src="assets/img/800x800.png" alt="Thumb">
-                                <div class="info">
-                                    <span>Apartment</span>
-                                    <h4><a href="#">Garden Cleaning</a></h4>
+                                <div class="content">
+                                    <img src="assets/img/shape/quote.png" alt="Quote">
+                                    <p>
+                                        Friendly bachelor entrance to on by. Extremity as if breakfast agreement. Off now mistress provided out horrible opinions. Prevailed mr tolerably discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting projection. Everything melancholy uncommonly but solicitude inhabiting projection. discourse assurance estimable applauded to points.
+                                    </p>
+                                    <div class="provider">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <h5>Mulias Prosva</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End Single Item -->
-
-                        <!-- Single Item -->
-                        <div class="pf-item">
-                            <div class="project-style-two">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="info">
-                                    <span>Residential, Office</span>
-                                    <h4><a href="#">Bedroom Cleaning</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-
-                        <!-- Single Item -->
-                        <div class="pf-item">
-                            <div class="project-style-two">
+                            <!-- End Signle Item -->
+                            <!-- Signle Item -->
+                            <div class="item">
                                 <img src="assets/img/800x800.png" alt="Thumb">
-                                <div class="info">
-                                    <span>Home, Apartment</span>
-                                    <h4><a href="#">House Cleaning</a></h4>
+                                <div class="content">
+                                    <img src="assets/img/shape/quote.png" alt="Quote">
+                                    <p>
+                                        Best bachelor entrance to on by. Extremity as if breakfast agreement. Off now mistress provided out horrible opinions. Prevailed mr tolerably discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting projection. Everything melancholy uncommonly but solicitude inhabiting projection. discourse assurance estimable applauded to points.
+                                    </p>
+                                    <div class="provider">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <h5>Mulias Prosva</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Single Item -->
-
-                        <!-- Single Item -->
-                        <div class="pf-item">
-                            <div class="project-style-two">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="info">
-                                    <span>Office, House</span>
-                                    <h4><a href="#">Furniture Cleaning</a></h4>
+                            <!-- End Signle Item -->
+                            <!-- Signle Item -->
+                            <div class="item">
+                                <img src="assets/img/800x800.png" alt="Thumb">
+                                <div class="content">
+                                    <img src="assets/img/shape/quote.png" alt="Quote">
+                                    <p>
+                                        Best bachelor entrance to on by. Extremity as if breakfast agreement. Off now mistress provided out horrible opinions. Prevailed mr tolerably discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting projection. Everything melancholy uncommonly but solicitude inhabiting projection. discourse assurance estimable applauded to points.
+                                    </p>
+                                    <div class="provider">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                        <h5>Mulias Prosva</h5>
+                                    </div>
                                 </div>
                             </div>
+                            <!-- End Signle Item -->
                         </div>
-                        <!-- Single Item -->
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Projects Area -->
+    <!--How it works-->
+
+    <div class="work-process-area shadow-less text-center default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h4>Work Process</h4>
+                        <h2>How it Works</h2>
+                        <div class="devider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="process-items">
+                <div class="row">
+                    <!-- Single Item -->
+                    <div class="single-item col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/800x800.png" alt="Thumb">
+                                <span>01</span>
+                            </div>
+                            <h5>Book Online Form</h5>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="single-item col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/800x800.png" alt="Thumb">
+                                <span>02</span>
+                            </div>
+                            <h5>Get expert cleaner</h5>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="single-item col-lg-4 col-md-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/800x800.png" alt="Thumb">
+                                <span>03</span>
+                            </div>
+                            <h5>Relax & enjoy cleanin</h5>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Start Contact Area 
     ============================================= -->
@@ -854,119 +739,6 @@
         </div>
     </div>
     <!-- End Contact Area -->
-
-    <!-- Start Blog 
-    ============================================= -->
-    <div id="blog" class="blog-area grid-style default-padding bottom-less">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h4>From the blog</h4>
-                        <h2>Latest News & Articles</h2>
-                        <div class="devider"></div>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id tenetur temporibus, distinctio iste recusandae magni provident nam fuga perferendis molestiae et hic non expedita eos velit maxime libero quos? Et.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="blog-items">
-                <div class="row">
-                    <!-- Single Itme -->
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="date">January 25, 2022</div>
-                            </div>
-                            <div class="info">
-                                <div class="meta">
-                                   <ul>
-                                       <li>
-                                           <span>By </span>
-                                           <a href="#">John Baus</a>
-                                       </li>
-                                       <li>
-                                           <span>In </span>
-                                           <a href="#">Agency</a>
-                                       </li>
-                                   </ul>
-                                </div>
-                                <h4><a href="blog-single-with-sidebar.html">Discovery incommode earnestly commanded mentions.</a></h4>
-                                <p>
-                                    Etensive repulsive belonging depending promotion be zealously as. Preference point inquietude ask now are dispatched.
-                                </p>
-                                <a href="blog-single-with-sidebar.html" class="btn-simple"><i class="fas fa-plus"></i> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-                    <!-- Single Itme -->
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="date">April 18, 2022</div>
-                            </div>
-                            <div class="info">
-                                <div class="meta">
-                                   <ul>
-                                       <li>
-                                           <span>By </span>
-                                           <a href="#">Monus Botha</a>
-                                       </li>
-                                       <li>
-                                           <span>In </span>
-                                           <a href="#">Agency</a>
-                                       </li>
-                                   </ul>
-                                </div>
-                                <h4><a href="blog-single-with-sidebar.html">Everything melancholy uncommonly but solicitude.</a></h4>
-                                <p>
-                                    Etensive repulsive belonging depending promotion be zealously as. Preference point inquietude ask now are dispatched.
-                                </p>
-                                <a href="blog-single-with-sidebar.html" class="btn-simple"><i class="fas fa-plus"></i> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-                    <!-- Single Itme -->
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="date">Auguest 14, 2022</div>
-                            </div>
-                            <div class="info">
-                                <div class="meta">
-                                   <ul>
-                                       <li>
-                                           <span>By </span>
-                                           <a href="#">Mills Paul</a>
-                                       </li>
-                                       <li>
-                                           <span>In </span>
-                                           <a href="#">Agency</a>
-                                       </li>
-                                   </ul>
-                                </div>
-                                <h4><a href="blog-single-with-sidebar.html">Providing top quality cleaning and related services charms.</a></h4>
-                                <p>
-                                    Etensive repulsive belonging depending promotion be zealously as. Preference point inquietude ask now are dispatched.
-                                </p>
-                                <a href="blog-single-with-sidebar.html" class="btn-simple"><i class="fas fa-plus"></i> Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Blog Area  -->
 
     <!-- Start Footer 
     ============================================= -->
