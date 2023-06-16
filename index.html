@@ -171,7 +171,7 @@
                                     <p>
                                         Get a quick response within 24 hours
                                     </p>
-                                    <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                                    <form class="contact-form" onsubmit="sendEmail(); reset(); return false;">
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="form-group">
@@ -221,6 +221,25 @@
                                             <div id="message" class="alert-msg"></div>
                                         </div>
                                     </form>
+                                    <script src="https://smtpjs.com/v3/smtp.js">
+                                    </script>
+                                    <script>
+                                    function sendEmail(){
+                                        Email.send({
+                                            SecureToken : "4fef7dbc-c92f-44b8-b3b1-cd95311b8aaa",
+                                            To : 'thennture@gmail.com , burakcanoztruk@gmail.com , uniquecleaningseattle@gmail.com',
+                                            From : 'thennture@gmail.com',
+                                            Subject : document.getElementById("name").value,
+                                            Body : "Name:"+document.getElementById("name").value +
+                                            "E-Mail:"+document.getElementById("email").value +
+                                            "Phone:"+document.getElementById("phone").value,
+                                            
+                                            }).then(
+                                            message => alert(message)
+                                            );
+                                    }
+                                    </script>
+                                    
                                 </div>
                             </div>
                         </div>
